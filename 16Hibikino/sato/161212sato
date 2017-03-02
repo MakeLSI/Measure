@@ -1,0 +1,10 @@
+CH1:    Arduino Unoからのクロックです。
+        理想だと31.37kHzですが、少しだけ低く出てます。
+CH2:    Delta Sigma ADCの出力です。
+CH3:    DC入力信号です。
+                TEK0000.JPG:    DC入力電圧  -118mV(IRドロップ?)
+                TEK0001.JPG:    DC入力電圧  1.97V
+                TEK0002.JPG:    DC入力電圧  4.02V
+
+TEK0000 -> TEK0002とDC入力電圧が大きくなるに従って、
+CH2の出力のHighの比率が小さくなります。

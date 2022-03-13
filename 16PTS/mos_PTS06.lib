@@ -1,5 +1,5 @@
 ** Phenitec Mos spice model
-** ver1.00 by arugak  (170813)
+** ver1.01 by arugak and keikawa (220313)
 *
 .MODEL nchOR1ex NMOS
 + LEVEL    = 8
@@ -117,6 +117,7 @@
 + CJ      = 0.000678126 
 + CF      = 0           
 + CJSW    = 2.61022E-10 
++ KT1     = -0.27
 *
 .MODEL pchOR1ex PMOS
 + LEVEL    = 8
